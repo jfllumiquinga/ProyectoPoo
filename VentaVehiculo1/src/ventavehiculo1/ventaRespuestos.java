@@ -82,15 +82,13 @@ public class ventaRespuestos {
         this.nombreCuenta = 25454;
         this.formaPago = "efectivo";
 
-        this.fechaEntrega = fechaEntrega;
-        this.fechaFactura = fechaFactura;
-        this.PrecioTotal = PrecioTotal;
+       
     
     
     }
     @Override
     public String toString() {
-        return "ventaRespuestos{" + "nombreComprador=" + nombreComprador + ", nombreCuenta=" + nombreCuenta + ", formaPago=" + formaPago + ", precioVenta=" + precioVenta + ", fechaEntrega=" + fechaEntrega + ", fechaFactura=" + fechaFactura + ", PrecioTotal=" + PrecioTotal + '}';
+        return "ventaRespuestos{" + "nombreComprador=" + nombreComprador + ", nombreCuenta=" + nombreCuenta + ", formaPago=" + formaPago + ", fechaEntrega=" + fechaEntrega + ", fechaFactura=" + fechaFactura + ", PrecioTotal=" + PrecioTotal + '}';
     }
     
 }
